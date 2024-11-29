@@ -180,3 +180,77 @@ footer {
 	max-width:100%;
 	
 }
+
+/* General Reset for Smaller Screens */
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .wrapper {
+        width: 96%;
+        max-width: 100%;
+        padding: 0 2%;
+    }
+
+    #title-block {
+        font-size: 30px; /* Reduce font size */
+        padding: 5px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column; /* Stack navigation links */
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+        max-width: 80%; /* Reduce link width */
+        padding: 10px;
+        font-size: 14px; /* Smaller text for links */
+    }
+
+    .links {
+        width: 100%; /* Full width for smaller screens */
+        float: none; /* Remove floating */
+        padding: 10px 0;
+    }
+
+    .imglink {
+        width: 40%; /* Reduce size of icons */
+        margin: 5px 0;
+    }
+
+    .skull1 {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    footer {
+        font-size: 12px; /* Smaller footer text */
+        padding: 10px;
+    }
+
+    .box1 {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Additional Adjustments for Very Small Screens */
+@media only screen and (max-width: 480px) {
+    #title-block {
+        font-size: 24px; /* Further reduce font size */
+    }
+
+    nav a {
+        font-size: 12px; /* Smaller link text */
+        padding: 8px;
+    }
+
+    .imglink {
+        width: 60%; /* Adjust icon size */
+    }
+}
