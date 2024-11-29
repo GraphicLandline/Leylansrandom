@@ -1,0 +1,173 @@
+/*
+Dark-red:#9c0000
+red:#d40404
+Dark-blue:#2b00ba
+blue:#0013ba
+white:ffffff
+warm-white:#fffceb
+cool-white:#21a7ff
+blue-gray:#0051ba
+gray: #5d5d5d
+black: #000000
+light-gray: #a1a1a1
+*/
+
+body {
+	background-color:#000000;
+	margin:0;
+	padding:0;
+	padding-top:10px;
+}
+
+.wrapper {
+		background-color:#fffceb;
+		width:86%;
+		margin:0 auto;
+		max-width:80%;
+		padding:0 1%;
+		padding-bottom:10px;
+		padding-top:1%;
+	
+}
+
+#title-block {
+	width:98%;
+	margin:0 auto;
+	max-width:100%;
+	padding:10px;
+	padding-bottom:10px;
+	background-color:#5d5d5d;
+		color:#9c0000;
+		text-align:center;
+		font-weight:bold;
+		font-size: 50px;
+
+	
+}
+
+.home {
+	float:left;
+}
+
+#title-block2 {
+	
+}
+
+nav {
+	background-color:;
+	text-align:center;
+	letter-spacing:1px;
+	font-weight:bold;
+	margin:0 auto;
+	padding:10px;
+	width:98%;
+	max-width:100%;
+	
+	
+}
+
+.dw {
+	text-align:center;
+	letter-spacing:3px;
+	margin:0 auto;
+	max-width:20%;
+	padding:1.25%;
+	border:1px solid;
+	border-color:#21a7ff;
+	padding-top:.50%;
+	padding-bottom:.50%
+}
+
+.pw {
+	text-align:center;
+	letter-spacing:3px;
+	margin:0 auto;
+	max-width:20%;
+	padding:1.25%;
+	border:1px solid;
+	border-color:#21a7ff;
+	padding-top:.50%;
+	padding-bottom:.50%;
+}
+
+.sb {
+	text-align:center;
+	letter-spacing:3px;
+	margin:0 auto;
+	max-width:20%;
+	padding:1.25%;
+	border:1px solid;
+	border-color:#21a7ff;
+	padding-top:.50%;
+	padding-bottom:.50%;
+}
+
+.cw {
+	text-align:center;
+	letter-spacing:3px;
+	margin:0 auto;
+	max-width:20%;
+	padding:1.25%;
+	border:1px solid;
+	border-color:#21a7ff;
+	padding-top:.50%;
+	padding-bottom:.50%;
+}
+
+.ddw {
+	text-align:center;
+	letter-spacing:3px;
+	margin:0 auto;
+	max-width:20%;
+	padding:1.25%;
+	border:1px solid;
+	border-color:#21a7ff;
+	padding-top:.50%;
+	padding-bottom:.50%;
+}
+
+.pics {
+	width:49%;
+	
+
+}
+
+.box1{
+	float:right;
+	text-align:center;
+	margin:0 auto;
+	width:49%;
+	max-width:100%;
+	
+}
+
+.info {
+	text-align:center;
+	margin:0 auto;
+	max-width:45%;
+	padding:1.25%;
+	border:1px solid;
+	border-color:#000000;
+	padding-top:.50%;
+	padding-bottom:.50%;
+}
+
+.left {
+		float:left;
+}
+
+.right {
+		float:right;
+}
+
+footer {
+	color:#9c0000;
+	text-align:center;
+	padding:10px;
+	width:98%;
+	max-width:100%;
+}
+
+.clear {
+	clear:both;	
+}
